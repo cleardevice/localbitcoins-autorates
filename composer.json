@@ -1,0 +1,11 @@
+{
+    "require": {
+        "php-curl-class/php-curl-class": "^3.5",
+        "pwfisher/command-line-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "LocalBtc\\": "src/"
+        }
+    }
+}
