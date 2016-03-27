@@ -1,0 +1,2 @@
+#!/bin/sh
+lbtc-check-buy -c uah $@ | grep _BANK | sort -nk 3

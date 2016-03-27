@@ -1,0 +1,2 @@
+#!/bin/sh
+lbtc-check-buy -c rub $@ | grep QIWI | sort -nk 3

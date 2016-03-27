@@ -1,0 +1,16 @@
+# my
+regexp=^(.*)(creeper)(.*)$
+colours=green
+=======
+
+# concurrents
+regexp=^(.*)(RangerK|remb0|qiwexcom|VukaVuka)(.*)$
+colours=red
+===
+# 70+,100+,500+
+regexp=(\t\d+\.*\d*)(\t\d*\t\d*\t\w+\t)(\d+\.*\d*)(\t\d+\t[\w\.]+ )(\(([15]00|70)\+; \d+%\))$
+colours=unchanged,yellow,unchanged,yellow,unchanged,yellow
+===
+# 1000+,3000+
+regexp=(\t\d+\.*\d*)(\t\d*\t\d*\t\w+\t)(\d+\.*\d*)(\t\d+\t[\w\.]+ )(\([13]000\+; \d+%\))$
+colours=unchanged,cyan,unchanged,cyan,unchanged,cyan

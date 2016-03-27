@@ -1,0 +1,2 @@
+#!/bin/sh
+grc -c /lbtc/bin/conf.lbtc lbtc-check -t buy $@

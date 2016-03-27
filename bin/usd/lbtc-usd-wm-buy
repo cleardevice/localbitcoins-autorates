@@ -1,0 +1,2 @@
+#!/bin/sh
+lbtc-check-buy -c usd $@ | grep WEBMONEY | sort -nk 3
